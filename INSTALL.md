@@ -111,21 +111,3 @@ cd ..
 # Ver o resultado
 cat contexto.json
 ```
-
-## Solução de Problemas Comuns
-
-### Erro: "command not found: go"
-
-O Go não está instalado ou não está no PATH. Siga as instruções de instalação acima.
-
-### Erro: "cannot find package"
-
-Execute `go mod tidy` para baixar as dependências.
-
-### Erro: "permission denied"
-
-Verifique as permissões do diretório ou use `sudo` para instalar o Go.
-
-### Erro de versão incompatível
-
-Siga as soluções na seção "Problema de Versão do Go" acima.
