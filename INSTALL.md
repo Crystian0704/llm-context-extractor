@@ -1,17 +1,6 @@
 # Instruções de Instalação e Solução de Problemas
 
-## Problema de Versão do Go
-
-Se você encontrar o erro:
-```
-compile: version "go1.23.2" does not match go tool version "go1.22.3"
-```
-
-Isso indica uma incompatibilidade entre a versão do Go especificada no `go.mod` e a versão instalada no sistema.
-
-### Soluções
-
-#### Opção 1: Atualizar o Go para a versão especificada
+## Opção 1: Atualizar o Go para a versão especificada
 
 ```bash
 # Baixar e instalar a versão mais recente do Go
@@ -23,7 +12,7 @@ sudo tar -C /usr/local -xzf go1.23.2.linux-amd64.tar.gz
 go version
 ```
 
-#### Opção 2: Ajustar o go.mod para a versão instalada
+## Opção 2: Ajustar o go.mod para a versão instalada
 
 ```bash
 # Verificar qual versão você tem
@@ -34,7 +23,7 @@ go version
 # go 1.22.3
 ```
 
-#### Opção 3: Usar go mod tidy para limpar dependências
+## Opção 3: Usar go mod tidy para limpar dependências
 
 ```bash
 go clean -cache
