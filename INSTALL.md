@@ -1,4 +1,4 @@
-# Instruções de Instalação e Solução de Problemas
+# Instruções de Instalação
 
 ## Opção 1: Atualizar o Go para a versão especificada
 
